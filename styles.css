@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf5e6;
+}
+
+#container {
+    text-align: center;
+}
+
+#banana {
+    cursor: pointer;
+    width: 300px;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+#banana:hover {
+    transform: scale(1.1);
+}
